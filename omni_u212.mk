@@ -29,6 +29,7 @@ PRODUCT_BRAND := amlogic
 PRODUCT_MANUFACTURER := Amlogic
 
 PRODUCT_PROPERTY_OVERRIDES += \
+    ro.vendor.build.security_patch=2099-12-31 \
     ro.secure=1 \
     ro.adb.secure=0
 

@@ -27,3 +27,8 @@ PRODUCT_NAME := omni_u212
 PRODUCT_MODEL := X96MAX
 PRODUCT_BRAND := amlogic
 PRODUCT_MANUFACTURER := Amlogic
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.secure=1 \
+    ro.adb.secure=0
+

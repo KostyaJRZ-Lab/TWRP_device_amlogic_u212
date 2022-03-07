@@ -26,6 +26,10 @@ TARGET_CPU_SMP := true
 TARGET_USES_64_BIT_BINDER := true
 ENABLE_CPUSETS := true
 
+# Compression
+LZMA_RAMDISK_TARGETS := recovery
+BOARD_HAS_SMALL_RECOVERY = true
+
 # Platform
 BOARD_VENDOR := amlogic
 TARGET_SOC := s905x2

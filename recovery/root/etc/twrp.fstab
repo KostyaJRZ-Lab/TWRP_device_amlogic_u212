@@ -10,7 +10,7 @@
 /misc           emmc    /dev/block/misc
 /vbmeta         emmc    /dev/block/vbmeta
 
-/system_root    ext4    /dev/block/system      flags=backup=1;display="System"
+/system         ext4    /dev/block/system      flags=backup=1;display="System"
 /system_image   emmc    /dev/block/system      flags=backup=1;flashimg
 /vendor         ext4    /dev/block/vendor      flags=backup=1
 /vendor_image   emmc    /dev/block/vendor      flags=backup=1;flashimg
